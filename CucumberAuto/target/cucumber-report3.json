@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Validate create user multiple fields",
+        "description": "",
+        "id": "to-validate-the-creation-of-a-facebook-account;validate-create-user-multiple-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12012117600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User need to be on the logging page",
+            "match": {
+              "location": "DataTableStepDef.User_need_to_be_on_the_logging_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2094800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter following data",
+            "match": {
+              "location": "DataTableStepDef.Enter_following_data(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "Usersurname",
+                  "Mobile"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "Tom",
+                  "Hanks",
+                  "1234"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "Jack",
+                  "Danial",
+                  "5678"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the creation of a facebook account",
+    "description": "As a user you need to open facebook homepage and do the validations",
+    "id": "to-validate-the-creation-of-a-facebook-account",
+    "keyword": "Feature",
+    "uri": "datatableFF.feature"
+  }
+]

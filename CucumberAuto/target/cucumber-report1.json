@@ -1,0 +1,152 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Validate first name field",
+        "description": "",
+        "id": "to-validate-the-creation-of-a-facebook-account;validate-first-name-field",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8156940300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User need to be on the logging page",
+            "match": {
+              "location": "MultipleScenario.User_need_to_be_on_the_logging_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1193785800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters user first name",
+            "match": {
+              "location": "MultipleScenario.User_enters_user_first_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1063284200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User checks if user first name is present",
+            "match": {
+              "location": "MultipleScenario.User_checks_if_user_first_name_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 767844000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "close browser",
+            "match": {
+              "location": "MultipleScenario.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Validate filling man fields",
+        "description": "",
+        "id": "to-validate-the-creation-of-a-facebook-account;validate-filling-man-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6649983100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User need to be on the logging page",
+            "match": {
+              "location": "MultipleScenario.User_need_to_be_on_the_logging_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1187739400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters user first name",
+            "match": {
+              "location": "MultipleScenario.User_enters_user_first_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1121374600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters user surname",
+            "match": {
+              "location": "MultipleScenario.User_enters_user_surname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55450200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User checks first name is present",
+            "match": {
+              "location": "MultipleScenario.User_checks_first_name_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1046529200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User mobile field should be blank",
+            "match": {
+              "location": "MultipleScenario.User_mobile_field_should_be_blank()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "duration": 745960000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "close browser",
+            "match": {
+              "location": "MultipleScenario.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the creation of a facebook account",
+    "description": "As a user you need to open facebook homepage and do the validations",
+    "id": "to-validate-the-creation-of-a-facebook-account",
+    "keyword": "Feature",
+    "uri": "MultipleScenarioFF.feature"
+  }
+]
