@@ -28,6 +28,7 @@ public void User_need_to_be_on_the_logging_page() {
 	System.setProperty("webdriver.chrome.driver", "D:\\Téléchargement\\chromedriver_win32\\chromedriver.exe");
 	driver= new ChromeDriver();
 	driver.get("https://demoqa.com/automation-practice-form/");
+	System.out.println("Test for GIT");
 	
 	
 	
